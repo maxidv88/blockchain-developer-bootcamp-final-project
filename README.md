@@ -41,8 +41,10 @@ The purpose of this project is to allow owners of social media accounts to prove
 
 Some stretch goals for this project idea include:
 
+* Allow user to mint NFTs for their Instagram profile
 * Allow user to mint NFTs for their Facebook profile
 * Allow user to mint NFTs for individual Tweets they have created on their Twitter account
+* Allow user to mint NFTs for individual posts they have made on their Instagram account
 * Allow user to mint NFTs for individual status updates/posts they have created on their Facebook account
 * Figure out a way to validate that the social media account the NFT is for still exists after the NFT is minted
   + One way might be to have expiry dates for the NFTs (such as on a Driver's License). User must, for example, log in with their social media account and reverify the existence and access to that account every year

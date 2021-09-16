@@ -1,4 +1,4 @@
-# File Integrity Monitor
+# Idea 1 - File Integrity Monitor
 
 ## The Problem
 
@@ -24,3 +24,15 @@ The Blockchain FIM solution would ensure that once a baseline has been created, 
 ## To Consider
 
 * It is quite normal to update certain files. For this reason, the user must be able to update the hash of a file in the baseline. In order to do this, a user can use their private key to send another transaction to the smart contract to update the file in question with the new hash. The old hash would still be on the blockchain but it will be superceded with the new hash. This also allows one to audit changes made to files through time.
+
+
+# Idea 2 - Social Media NFT
+
+## The Idea
+
+The user can log into a website using the "Log in with Twitter" or "Log in with Facebook" button. This verifies that the user indeed has access to the given social media profile. Once logged in, the user can mint an NFT that represents their social media account. This NFT would represent ownership of their social media account. Only one NFT can exist for any given account.
+
+
+## Purpose
+
+The purpose of this project is to allow owners of social media accounts to prove their ownership using NFTs. Additionally, if a user wanted to transfer the ownership to a different user, they could transfer the related NFT to that user as well. This would allow one to look at the history of the social media account ownership. Or in the case of an account hijack, the NFT would still be owned by the original user and the user could prove that they own the account, not whoever hijacked it.

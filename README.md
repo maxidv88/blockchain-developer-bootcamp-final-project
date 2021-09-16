@@ -60,3 +60,8 @@ Some stretch goals for this project idea include:
 3. User click a "Mint" button to mint a unique NFT for their social media account that they just logged in with
 4. Website makes a call to a smart contract, passing relevant account information to it, to mint an NFT for the user
 5. A unique NFT is generated, showcasing the user's ownership of the given social media account
+
+## To Consider
+
+* How can a user ensure that when selling an NFT for their social media account, the buyer is able to actually get access to the related account?
+  + Perhaps there might be a way to store credentials in the NFT itself (encrypted such that only the owner can decrypt them). This would need to be very secure

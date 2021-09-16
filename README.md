@@ -30,9 +30,33 @@ The Blockchain FIM solution would ensure that once a baseline has been created, 
 
 ## The Idea
 
-The user can log into a website using the "Log in with Twitter" or "Log in with Facebook" button. This verifies that the user indeed has access to the given social media profile. Once logged in, the user can mint an NFT that represents their social media account. This NFT would represent ownership of their social media account. Only one NFT can exist for any given account.
+The user can log into a website using the "Log in with Twitter" or "Log in with Facebook" button. This verifies that the user indeed has access to the given social media profile. Once logged in, the user can mint an NFT that for their social media account. This NFT would represent ownership of their social media account. Only one NFT can exist for any given account.
 
 
 ## Purpose
 
 The purpose of this project is to allow owners of social media accounts to prove their ownership using NFTs. Additionally, if a user wanted to transfer the ownership to a different user, they could transfer the related NFT to that user as well. This would allow one to look at the history of the social media account ownership. Or in the case of an account hijack, the NFT would still be owned by the original user and the user could prove that they own the account, not whoever hijacked it.
+
+## Stretch Goals
+
+Some stretch goals for this project idea include:
+
+* Allow user to mint NFTs for their Facebook profile
+* Allow user to mint NFTs for individual Tweets they have created on their Twitter account
+* Allow user to mint NFTs for individual status updates/posts they have created on their Facebook account
+* Figure out a way to validate that the social media account the NFT is for still exists after the NFT is minted
+  + One way might be to have expiry dates for the NFTs (such as on a Driver's License). User must, for example, log in with their social media account and reverify the existence and access to that account every year
+
+## Benefits
+
+* User can prove ownership of a given social media account
+* User can, if they so choose, sell ownership of their social media account - this is especially handy for social media websites such as Twitter and Instagram for people with "OG" accounts
+* User can mint and sell NFTs of status updates/tweets (ex. Jack Dorsey's first tweet ever being sold as an NFT)
+
+## User Flow
+
+1. User visits the project's website and logs in with their social media account (using the "Log in with Twitter" button)
+2. User connects their wallet to the website via an extension such as Metamask
+3. User click a "Mint" button to mint a unique NFT for their social media account that they just logged in with
+4. Website makes a call to a smart contract, passing relevant account information to it, to mint an NFT for the user
+5. A unique NFT is generated, showcasing the user's ownership of the given social media account

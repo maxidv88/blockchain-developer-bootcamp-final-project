@@ -67,3 +67,5 @@ Some stretch goals for this project idea include:
 
 * How can a user ensure that when selling an NFT for their social media account, the buyer is able to actually get access to the related account?
   + Perhaps there might be a way to store credentials in the NFT itself (encrypted such that only the owner can decrypt them). This would need to be very secure
+* Only one NFT can exist for a given social media account
+  + A user should not be able to create multiple NFTs for the same account, either with the same wallet or with different wallets
